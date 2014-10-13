@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vorlesungsplan-App Mosbach</string>
+    <string name="app_name_long">Vorlesungsplan-App Mosbach</string>
+    <string name="app_title">Vorlesungsplan</string>
+    
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_info_help">Info &amp; Hilfe</string>
+    <string name="menu_search">Suche</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    
+    <string name="title_activity_startup">Vorlesungsplan</string>
+    
+    <string name="copyright_laws">Copyright © 2013 by Patrick Lammers and Florian Schwab</string>
+    <string name="created_by">Entwickler: Patrick Lammers, Florian Schwab</string>
+    <string name="version_info">Version: </string>	
+    
+    <string name="settings_kurs_auswahl">Kurs-Bezeichnung:</string>
+    <string name="calendar_empty_warning">Dieser Vorlesungsplan hat keine Einträge, die in der Zukunft liegen.</string>
+    <string name="no_calendar_selected">Es wurde noch kein Kurs ausgewählt. Drücken Sie dazu den Menüknopf Ihres Gerätes und rufen Sie anschließend die Einstellungen auf.</string>
+    <string name="no_calendar_selected_v11">Es wurde noch kein Kurs ausgewählt. Klicken Sie dazu auf das Menüsymbol und rufen Sie anschließend die Einstellungen auf.</string>
+    <string name="speiseplan">Speiseplan</string>
+    <string name="feature_request_input_row_form_button">Abschicken</string>
+    <string name="feature_request_input_row_form_title">Titel:</string>
+    <string name="feature_request_input_row_form_description">Beschreibung:</string>
+    <string name="feature_input_title_hint">Titel eingeben</string>
+    <string name="feature_input_description_hint">Hier die Beschreibung des Features eingeben</string>
+    
+    <string name="download_dialog_courselist">Kursliste</string>
+    <string name="download_dialog_lectureschedule">Vorlesungsplan</string>
+    <string name="download_dialog_mensamenu">Speiseplan</string>
+    <string name="download_dialog_infos">Infos</string>
+    
+    <string name="download_dialog_pretitle">Lade</string>
+    <string name="download_dialog_posttitle">herunter</string>
+    <string name="download_dialog_waittext">Bitte warten…</string>
+    <string name="download_dialog_overrun">Der Download dauert ungewöhnlich lange…</string>
+    <string name="download_dialog_cancel">Abbrechen</string>
+    
+    <string name="toast_app_problem">Problem mit der Anwendung. Bitte die Entwickler kontaktieren!</string>
+    <string name="toast_courselist_download_failed">Kursliste konnte nicht heruntergeladen werden!</string>
+    <string name="toast_courselist_download_succeeded">Kursliste wurde erfolgreich heruntergeladen!</string>
+    <string name="toast_lectureschedule_download_failed">Vorlesungsplan konnte nicht heruntergeladen werden!</string>
+    <string name="toast_lectureschedule_download_succeeded">Vorlesungsplan wurde erfolgreich heruntergeladen!</string>
+    <string name="toast_lunchplan_download_failed">Speiseplan konnte nicht heruntergeladen werden!</string>
+    <string name="toast_lunchplan_download_succeeded">Speiseplan wurde erfolgreich heruntergeladen!</string>
+    <string name="toast_infos_download_failed">Infos konnten nicht heruntergeladen werden!</string>
+    <string name="toast_infos_download_succeeded">Infos wurden erfolgreich heruntergeladen!</string>
+    
+    <string name="parse_dialog_title">Vorlesungsplan wird eingelesen</string>
+    
+    <string name="settings_5_min">5 Minuten</string>
+    <string name="settings_15_min">15 Minuten</string>
+    <string name="settings_30_min">30 Minuten</string>
+    <string name="settings_1_h">1 Stunde</string>
+    <string name="settings_2_h">2 Stunden</string>
+    <string name="settings_6_h">6 Stunden</string>
+    <string name="settings_12_h">12 Stunden</string>
+    <string name="settings_courselist_not_downloaded">Kursliste noch nicht heruntergeladen!</string>
+    <string name="settings_courselist_actual_selected">Aktuell ausgewählt: </string>
+    <string name="settings_courselist_actual_selected_param">Aktuell ausgewählt: %s</string>
+    <string name="settings_courselist_nothing">keinen</string>
+    <string name="settings_updateinterval_not_selected">Noch kein Aktualisierungsintervall ausgewählt</string>
+    <string name="settings_updateinterval_actual_selected">Der Vorlesungsplan aktualisiert sich alle </string>
+    <string name="settings_updateinterval_actual_selected_param">Der Vorlesungsplan aktualisiert sich alle %s</string>   
+    <string name="settings_courselist_label">Kursbezeichnung</string>
+    <string name="settings_updateinterval_label">Aktualisierungsintervall</string>
+    <string name="settings_app_label">App</string>
+    <string name="settings_language_label">Sprache</string>
+    <string name="settings_language_actual_selected">Deine aktuelle Sprache ist</string>
+	<string name="settings_language_actual_selected_param">Deine aktuelle Sprache ist %s</string>
+    <string name="settings_use_notifier_label">Push-Benachrichtigungen</string>
+    <string name="settings_use_notifier_desc">App wird über Kalenderupdates informiert</string>
+    <string name="settings_notification_color_label">Benachrichtigungs-LED</string>
+    <string name="settings_free_days_color_label">Studientage</string>
+    <string name="settings_exams_color_label">Klausuren</string>
+    <string name="settings_weekend_lecutre_label">Vorlesungen am Wochenende</string>
+    <string name="settings_color_label">Farben</string>
+    
+    <string-array name="settings_languages_entries">
+        <item>Deutsch</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="settings_languages_values">
+        <item>de</item>
+        <item>en</item>
+    </string-array>
+    
+    <string name="implemented_in">Implementiert in</string>
+    <string name="will_not_be_implemented">Wird nicht implementiert</string>
+    <string name="will_be_implemented">Wird implementiert</string>
+    <string name="bug_report">Bug melden</string>
+    <string name="bug_report_info">Mit dem folgenden Formular können Sie einen Bug melden! Wir versuchen diesen schnellstmöglich zu beheben. Beim senden des Bugs wird die GMail-Adresse mitgesendet, die in Ihrem Gerät hinterlegt ist!</string>
+    <string name="feature_request">Feature einstellen</string>
+    <string name="feature_request_info">Im nachfolgenden Formular können Sie ein Feature anfragen. Wurde die Anfrage von den Entwicklern bearbeitet wird sie in der Liste oberhalb angezeigt. Damit die Feature-Requests nachvollzogen werden können, werden diese mit der Google-Emailadresse verschickt, mit der dieses Telefon angemeldet wurde!</string>
+    <string name="please_insert_a_title">Bitte geben Sie einen Titel ein!</string>
+    <string name="please_insert_a_desc">Bitte geben Sie eine Beschreibung ein!</string>
+    <string name="help_title">Hilfe</string>
+    <string name="bug_report_title">Bugreport</string>
+    <string name="feature_request_title">Feature-Request</string>
+    <string name="update_available">Es ist ein Update verfügbar!</string>
+    <string name="data_sended_successfully">Die Daten wurden erfolgreich verschickt!</string>
+    <string name="error_occurred">Es ist ein Fehler aufgetreten! Versuchen Sie es später erneut!</string>
+    
+    <string name="pull_down">Nach unten ziehen</string>
+    <string name="to_show_past_events">um vergangene Termine anzuzeigen</string>
+    <string name="release_now">Jetzt loslassen!</string>
+    
+    <string name="restart_dialog_message">Ein Neustart ist notwendig, um die Einstellungen zu übernehmen.</string>
+    <string name="restart_dialog_title">Achtung</string>
+    <string name="restart_dialog_ok">Jetzt</string>
+    <string name="restart_dialog_cancel">Später</string>
+    
+    <string name="notification_update_msg">Es steht ein Update für Ihren Vorlesungsplan zur Verfügung!</string>
+    <string name="dialog_use_notifier_warn_msg">Um dieses Feature nutzen zu können, müssen Sie die Nutzungsbedingungen (http://goo.gl/dPrk35) akzeptieren!</string>
+    <string name="dialog_use_notifier_warn_title">Achtung</string>
+    <string name="dialog_use_notifier_warn_accept">Akzeptieren</string>
+    <string name="dialog_use_notifier_warn_deny">Ablehnen</string>
+    <string name="dialog_smartphone_gets_registerd">Smartphone wird am Server registriert</string>
+    <string name="dialog_smartphone_gets_unregistered">Smartphone wird vom Server abgemeldet</string>
+    <string name="dialog_update_the_server">Update die Kursauswahl</string>
+    <string name="toast_smartphone_got_registered">Smartphone wurde erfolgreich am Server registriert</string>
+    <string name="toast_smartphone_got_not_registered">Fehler beim Registrieren des Smartphones</string>
+    <string name="toast_smartphone_got_unsubscribed">Smartphone wurde erfolgreich vom Server abgemeldet</string>
+    <string name="toast_smartphone_got_not_unsubscribed">Fehler beim Abmelden des Smartphones</string>
+    
+    <string name="update_info_title">Letzte Änderungen:</string>
+    <string name="update_info_added_singular">Vorlesung hinzugefügt</string>
+    <string name="update_info_removed_singular">Vorlesung gelöscht</string>
+    <string name="update_info_modified_singular">Vorlesung verändert</string>
+    <string name="update_info_added_plural">Vorlesungen hinzugefügt</string>
+    <string name="update_info_removed_plural">Vorlesungen gelöscht</string>
+    <string name="update_info_modified_plural">Vorlesungen verändert</string>
+    
+    <string name="event_removed">Termin gelöscht:</string>
+    
+    <string name="room_changed">Raumänderung</string>
+    <string name="date_changed">Zeitänderung</string>
+    <string name="new_event">Neu</string>
+    
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Abbrechen</string>
+</resources>

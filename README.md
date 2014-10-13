@@ -1,4 +1,4 @@
-vorlesungsplan-app-mosbach
+vorlesungsplan-mosbach
 ==========================
 
-Die (inoffizielle) Vorlesungsplan-App der DHBW Mosbach
+Die (inoffizielle) Vorlesungsplan-App für die DHBW Mosbach

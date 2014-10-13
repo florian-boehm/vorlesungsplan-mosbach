@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lecture Schedule App Mosbach</string>
+    <string name="app_name_long">Lecture Schedule App Mosbach</string>
+    <string name="app_title">Lecture Schedule</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_info_help">Info &amp; help</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_refresh">Refresh</string>
+    
+    <string name="title_activity_startup">Lecture Schedule</string>
+    
+    <string name="copyright_laws">Copyright © 2013 by Patrick Lammers and Florian Schwab</string>
+    <string name="created_by">Developers: Patrick Lammers, Florian Schwab</string>
+    <string name="version_info">Version: </string>	
+    
+    <string name="settings_kurs_auswahl">Course name:</string>
+    <string name="calendar_empty_warning">This lecture schedule has no events in the future.</string>
+    <string name="no_calendar_selected">No course was selected. Press the menu button of your device and open the settings menu.</string>
+    <string name="no_calendar_selected_v11">No course was selected. Click on the menu symbol and open the settings menu.</string>
+    <string name="speiseplan">Canteen menu</string>
+    <string name="feature_request_input_row_form_button">Send</string>
+    <string name="feature_request_input_row_form_title">Title:</string>
+    <string name="feature_request_input_row_form_description">Description:</string>
+    <string name="feature_input_title_hint">Enter title</string>
+    <string name="feature_input_description_hint">Enter description</string>
+    
+    <string name="download_dialog_courselist">course list</string>
+    <string name="download_dialog_lectureschedule">lecture schedule</string>
+    <string name="download_dialog_mensamenu">canteen menu</string>
+    <string name="download_dialog_infos">infos</string>
+    
+    <string name="download_dialog_pretitle">Download</string>
+    <string name="download_dialog_posttitle"></string>
+    <string name="download_dialog_waittext">Please wait…</string>
+    <string name="download_dialog_overrun">Unexpected long loading time…</string>
+    <string name="download_dialog_cancel">Cancel</string>
+    
+    <string name="toast_app_problem">Problem with the app. Please contact the developers!</string>
+    <string name="toast_courselist_download_failed">Course list download failed!</string>
+    <string name="toast_courselist_download_succeeded">Course list download succeeded!</string>
+    <string name="toast_lectureschedule_download_failed">Lecture schedule download failed!</string>
+    <string name="toast_lectureschedule_download_succeeded">Lecture schedule download succeeded!</string>
+    <string name="toast_lunchplan_download_failed">Canteen menu download failed!</string>
+    <string name="toast_lunchplan_download_succeeded">Canteen menu download succeeded!</string>
+    <string name="toast_infos_download_failed">Infos download failed!</string>
+    <string name="toast_infos_download_succeeded">Infos download succeeded!</string>
+    
+    <string name="parse_dialog_title">Lecture schedule is read in</string>
+    
+    <string name="settings_5_min">5 minutes</string>
+    <string name="settings_15_min">15 minutes</string>
+    <string name="settings_30_min">30 minutes</string>
+    <string name="settings_1_h">1 hour</string>
+    <string name="settings_2_h">2 hours</string>
+    <string name="settings_6_h">6 hours</string>
+    <string name="settings_12_h">12 hours</string>
+    <string name="settings_courselist_not_downloaded">Course list not downloaded!</string>
+    <string name="settings_courselist_actual_selected">Actual selected: </string>
+    <string name="settings_courselist_actual_selected_param">Actual selected: %s</string>
+    <string name="settings_courselist_nothing">none</string>
+    <string name="settings_updateinterval_not_selected">No update interval selected</string>
+    <string name="settings_updateinterval_actual_selected">The schedule updates every </string>
+    <string name="settings_updateinterval_actual_selected_param">The schedule updates every %s</string>   
+    <string name="settings_courselist_label">Course name</string>
+    <string name="settings_updateinterval_label">Update interval</string>
+    <string name="settings_app_label">App</string>
+    <string name="settings_language_label">Language</string>
+    <string name="settings_language_actual_selected">Your actual language is</string>
+	<string name="settings_language_actual_selected_param">Your actual language is %s</string>
+    <string name="settings_use_notifier_label">Push-Notifications</string>
+    <string name="settings_use_notifier_desc">App will be notified about calendar updates</string>
+    <string name="settings_notification_color_label">Notification-LED</string>
+    <string name="settings_free_days_color_label">Free days</string>
+    <string name="settings_exams_color_label">Exams</string>
+    <string name="settings_weekend_lecutre_label">Weekend lectures</string>
+    <string name="settings_color_label">Colors</string>
+	
+    <string-array name="settings_languages_entries">
+        <item>Deutsch</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="settings_languages_values">
+        <item>de</item>
+        <item>en</item>
+    </string-array>
+    
+    <string name="implemented_in">Implemented in</string>
+    <string name="will_not_be_implemented">Will not be implemented</string>
+    <string name="will_be_implemented">Will be implemented</string>
+    <string name="bug_report">Report bug</string>
+    <string name="bug_report_info">You can report a bug with this form. We try to fix it as fast as possible. To comprehend the request your mail address that is linked with this device will be send to us!</string>
+    <string name="feature_request">Request feature</string>
+    <string name="feature_request_info">You can request a feature with this form. After the developers checked your request it will be shown in the list above. To comprehend the request your mail address that is linked with this device will be send to us!</string>
+    <string name="please_insert_a_title">Please insert a title!</string>
+    <string name="please_insert_a_desc">Please insert a description!</string>
+    <string name="help_title">Help</string>
+    <string name="bug_report_title">Bugreport</string>
+    <string name="feature_request_title">Feature-Request</string>
+    <string name="update_available">An Update is available!</string>
+    <string name="data_sended_successfully">The data were send successfully!</string>
+    <string name="error_occurred">An error occurred! Please try again later!</string>
+    
+    <string name="pull_down">Pull down</string>
+    <string name="to_show_past_events">to see past events</string>
+    <string name="release_now">Release now!</string>
+    
+    <string name="restart_dialog_message">A restart is necessary to settle the changes.</string>
+    <string name="restart_dialog_title">Attention</string>
+    <string name="restart_dialog_ok">Now</string>
+    <string name="restart_dialog_cancel">Later</string>
+    
+    <string name="update_notification_msg">An update for your lecture schedule is available!</string>
+    <string name="use_notifier_warn_msg">This feature is experimental at this moment!\nWe assume no liability for missed lectures ;-)</string>
+    <string name="use_notifier_warn_title">Attention</string>
+    <string name="use_notifier_warn_accept">Accept</string>
+    <string name="use_notifier_warn_deny">Deny</string>
+    <string name="use_notifier_gets_registered">Smartphone gets registered</string>
+    <string name="use_notifier_gets_unregistered">Smartphone gets unsubscribed</string>
+    <string name="use_notifier_got_registered">Smartphone registration was successful</string>
+    <string name="use_notifier_register_failed">Smartphone registration was not successful</string>
+    
+    <string name="notification_update_msg">An update for your lecture schedule is available!</string>
+    <string name="dialog_use_notifier_warn_msg">To use this feature you have to accept the terms of use (http://goo.gl/dPrk35) !</string>
+    <string name="dialog_use_notifier_warn_title">Attention</string>
+    <string name="dialog_use_notifier_warn_accept">Accept</string>
+    <string name="dialog_use_notifier_warn_deny">Deny</string>
+    <string name="dialog_smartphone_gets_registerd">Smartphone gets registered</string>
+    <string name="dialog_smartphone_gets_unregistered">Smartphone gets unsubscribed</string>
+    <string name="dialog_update_the_server">Update the server</string>
+    <string name="toast_smartphone_got_registered">Smartphone registration was successful</string>
+    <string name="toast_smartphone_got_not_registered">Smartphone registration was not successful</string>
+    <string name="toast_smartphone_got_unsubscribed">Smartphone unsubscribe was successful</string>
+    <string name="toast_smartphone_got_not_unsubscribed">Smartphone unsubscribe was not successful</string>
+    
+    <string name="update_info_title">Last changes:</string>
+    <string name="update_info_added_singular">lecture added</string>
+    <string name="update_info_removed_singular">lecture removed</string>
+    <string name="update_info_modified_singular">lecture modified</string>
+    <string name="update_info_added_plural">lectures added</string>
+    <string name="update_info_removed_plural">lectures removed</string>
+    <string name="update_info_modified_plural">lectures modified</string>
+    
+    <string name="event_removed">Event removed:</string>
+    
+    <string name="room_changed">room changed</string>
+    <string name="date_changed">time changed</string>
+    <string name="new_event">new</string>
+</resources>

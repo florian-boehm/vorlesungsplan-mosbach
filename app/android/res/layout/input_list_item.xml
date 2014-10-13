@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingRight="5dp" >
+
+    <TextView
+        android:id="@+id/lblListItemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Hallo"
+        android:textColor="@color/dhbw_grau"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblListItemDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Hallo"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/update_notification_added"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/feature_request_input_row_form_title"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/feature_input_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/feature_input_title_hint"
+        android:textSize="12sp" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/update_notification_modified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/feature_request_input_row_form_description"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/feature_input_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.66"
+        android:ems="10"
+        android:hint="@string/feature_input_description_hint"
+        android:inputType="textMultiLine"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:minHeight="24dp"
+        android:minWidth="128dp"
+        android:text="@string/feature_request_input_row_form_button"
+        android:textSize="12sp" />
+
+</LinearLayout>

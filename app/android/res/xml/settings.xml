@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/menu_settings">
+	<PreferenceCategory
+		android:title="@string/app_title"
+		android:key="course_category">   
+		<ListPreference 
+		    android:key="course_list"
+            android:title="@string/settings_courselist_label"
+            android:summary="@string/settings_courselist_actual_selected_param" />
+		<ListPreference 
+		    android:key="refresh_interval"
+            android:title="@string/settings_updateinterval_label"
+            android:summary="@string/settings_updateinterval_actual_selected_param" />
+		<CheckBoxPreference
+          android:title="@string/settings_use_notifier_label"
+          android:defaultValue="false"
+          android:summary="@string/settings_use_notifier_desc"
+          android:key="use_notifier" />
+	</PreferenceCategory>
+	<PreferenceCategory 
+	    android:title="@string/settings_app_label"
+	    android:key="app_category">     
+		<ListPreference 
+		    android:key="language"
+            android:title="@string/settings_language_label"
+            android:summary="@string/settings_language_actual_selected_param"
+			android:entries="@array/settings_languages_entries"
+    		android:entryValues="@array/settings_languages_values"/>
+	</PreferenceCategory>
+	<PreferenceCategory 
+	    android:title="@string/settings_color_label"
+	    android:key="color_category">
+		<afzkl.development.colorpickerview.preference.ColorPickerPreference
+		  android:title="@string/settings_notification_color_label"
+		  android:key="notification_color"
+		  defaultValue="0xFFE2001A"/>
+		<afzkl.development.colorpickerview.preference.ColorPickerPreference
+		  android:title="@string/settings_free_days_color_label"
+		  android:key="free_days_color"
+		  defaultValue="0xFFE2001A"/>
+		<afzkl.development.colorpickerview.preference.ColorPickerPreference
+		  android:title="@string/settings_exams_color_label"
+		  android:key="exams_color"
+		  defaultValue="0xFFE2001A"/>
+		<afzkl.development.colorpickerview.preference.ColorPickerPreference
+		  android:title="@string/settings_weekend_lecutre_label"
+		  android:key="weekend_lecture_color"
+		  defaultValue="0xFFE2001A"/>
+	</PreferenceCategory> 
+</PreferenceScreen>
