@@ -2,15 +2,13 @@
 
 class Helper {
 	public static function printAll() {
-		if(isset($_GET['help']) || isset($_POST['help'])) {
-			echo "<h1>Vorlesungsplan-Notifier API</h1>";
-			echo "<hr>";
-			self::printRegister();
-			echo "<hr>";
-			self::printUnregister();
-			echo "<hr>";
-			exit(0);
-		}
+		echo "<h1>Vorlesungsplan-Notifier API</h1>";
+		echo "<hr>";
+		self::printRegister();
+		echo "<hr>";
+		self::printUnregister();
+		echo "<hr>";
+		exit(0);
 	}
 
 	public static function printRegister() {
